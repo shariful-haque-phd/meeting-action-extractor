@@ -1,0 +1,28 @@
+{
+  "id": "023",
+  "status": "executed",
+  "commands": [
+    "python src/extract_actions.py sample/meeting.txt --output outputs/actions.json"
+  ],
+  "elapsed_seconds": 1.85,
+  "python": "3.13.5",
+  "inputs": [
+    {
+      "file": "sample/meeting.txt",
+      "sha256": "9d26a3335a940f8c32c79488ecb8cf90371fd885fe2a69b79b423b4a2370f310"
+    }
+  ],
+  "output_artifacts": [
+    {
+      "file": "results/execution.txt",
+      "sha256": "58ee729283eafacbd0f629c53ce06f3e9c9b8178b3026b64ec75c458a6f92d14",
+      "bytes": 620
+    },
+    {
+      "file": "results/artifacts/actions.json",
+      "sha256": "b15809738c5e07b9676157c22f9b797cb73af2acdf97e97c8468addc61e6b7e7",
+      "bytes": 537
+    }
+  ],
+  "observations": "Local execution using bundled fixtures; not an external performance evaluation."
+}

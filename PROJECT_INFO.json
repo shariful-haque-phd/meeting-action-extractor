@@ -1,0 +1,31 @@
+{
+  "project_id": 23,
+  "repo_name": "023-meeting-action-item-extractor",
+  "title": "Meeting Action Item Extractor",
+  "theme": "Document Intelligence & RAG",
+  "theme_id": "T03",
+  "level": 2,
+  "level_label": "Applied Intelligence",
+  "prototype_status": "research prototype",
+  "primary_description": "Decisions, actions, owners and deadlines",
+  "research_question_proposed": "Can simple extraction rules recover action owners and due dates from meeting minutes?",
+  "sample_files": [
+    "sample/meeting.txt"
+  ],
+  "source_modules": [
+    "src/extract_actions.py"
+  ],
+  "commands_from_original_readme": [
+    "python src/extract_actions.py sample/meeting.txt --output outputs/actions.json"
+  ],
+  "docs": [
+    "README.md",
+    "docs/RESEARCH.md",
+    "docs/ARCHITECTURE.md",
+    "docs/DEMO.md",
+    "docs/RESULTS.md"
+  ],
+  "source_origin": "github-level2-20-projects(1).zip",
+  "execution_status": "verified_local_execution",
+  "evidence": "results/execution.json"
+}

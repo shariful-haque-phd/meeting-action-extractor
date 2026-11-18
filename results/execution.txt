@@ -1,0 +1,26 @@
+$ python src/extract_actions.py sample/meeting.txt --output outputs/actions.json
+{
+  "decisions": [
+    {
+      "text": "We agreed to move the pilot to the second test environment.",
+      "speaker": "Maya"
+    },
+    {
+      "text": "Decision: the team selected PostgreSQL for the prototype.",
+      "speaker": "Nadia"
+    }
+  ],
+  "action_items": [
+    {
+      "text": "I will prepare the migration checklist by Friday.",
+      "owner": "Rafi",
+      "deadline": "by Friday"
+    },
+    {
+      "text": "Please review the security controls before next week.",
+      "owner": "Maya",
+      "deadline": null
+    }
+  ]
+}
+

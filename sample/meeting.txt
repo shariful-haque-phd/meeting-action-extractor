@@ -1,0 +1,4 @@
+Maya: We agreed to move the pilot to the second test environment.
+Rafi: I will prepare the migration checklist by Friday.
+Maya: Please review the security controls before next week.
+Nadia: Decision: the team selected PostgreSQL for the prototype.
